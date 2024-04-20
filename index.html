@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scientific Number Checker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>Enter a Scientific Number</h2>
+    <input type="text" id="numberInput" class="number-input" placeholder="Enter a number">
+    <button onclick="checkNumber()" class="submit-button">Check</button>
+</div>
+
+<div id="popup" class="popup">
+    <span class="close-button" onclick="closePopup()">&times;</span>
+    <div class="popup-content" id="popupContent"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
